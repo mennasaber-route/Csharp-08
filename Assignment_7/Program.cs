@@ -29,6 +29,21 @@
 
             #endregion
 
+
+            #region  Question 2-2
+
+            //b) Why are classes more suitable than structs for large applications?
+
+
+            //a) Which class is the parent class?             Shipment
+            //b) Which class is the child class?              ExpressShipment
+            //c) What members are inherited by ExpressShipment?              TrackingCode 
+            //d) Why is inheritance better than duplicating the same code in multiple classes?       as inheritance allows for code reuse and promotes a hierarchical relationship between classes,
+                  //making the code more organized, maintainable, and easier to understand. It reduces redundancy and ensures that changes
+                  //made to the parent class are automatically reflected in the child classes, leading to better consistency and less chance of errors.
+
+            #endregion
+
         }
     }
 }
