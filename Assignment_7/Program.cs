@@ -17,6 +17,18 @@
 
             #endregion
 
+
+            #region  Question 2
+
+            //b) Why are classes more suitable than structs for large applications?
+
+            // as classes support inheritance and polymorphism, which are essential for creating complex and extensible systems. and classes are reference types, they are more suitable for large applications because they can be easily managed and manipulated through references,
+            // allowing for better memory management and performance.
+            // Structs, being value types, can lead to performance issues when used in large applications due to copying overhead and lack of flexibility.
+
+
+            #endregion
+
         }
-}
+    }
 }
